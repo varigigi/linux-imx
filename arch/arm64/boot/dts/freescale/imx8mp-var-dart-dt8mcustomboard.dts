@@ -242,12 +242,8 @@
 		assigned-clock-parents = <&clk IMX8MP_CLK_24M>;
 #endif
 		assigned-clock-rates = <24000000>;
-		csi_id = <0>;
 		powerdown-gpios = <&pca6408_1 3 GPIO_ACTIVE_HIGH>;
 		reset-gpios = <&pca6408_1 1 GPIO_ACTIVE_LOW>;
-		mclk = <24000000>;
-		mclk_source = <0>;
-		mipi_csi;
 		status = "okay";
 
 		port {
@@ -321,12 +317,8 @@
 		assigned-clock-parents = <&clk IMX8MP_CLK_24M>;
 #endif
 		assigned-clock-rates = <24000000>;
-		csi_id = <1>;
 		powerdown-gpios = <&pca6408_1 2 GPIO_ACTIVE_HIGH>;
 		reset-gpios = <&pca6408_1 0 GPIO_ACTIVE_LOW>;
-		mclk = <24000000>;
-		mclk_source = <0>;
-		mipi_csi;
 		status = "okay";
 
 		port {
