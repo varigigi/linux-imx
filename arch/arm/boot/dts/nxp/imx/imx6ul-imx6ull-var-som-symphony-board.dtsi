@@ -280,7 +280,7 @@
 	pinctrl-0 = <&pinctrl_wdog>;
 	/*
 	 * To actually use ext-reset-output
-	 * connect pins J17.3 & J17.8 on the Concerto-Board
+	 * connect pins J3.17 & J3.11 on the Symphony-Board
 	 */
 	fsl,ext-reset-output;
 };
